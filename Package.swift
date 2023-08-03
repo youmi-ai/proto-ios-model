@@ -51,7 +51,7 @@ let package = Package(
         .nio,
         .protobuf,
         ],
-        path: "Sources/Model/sys"
+        sources: ["Sources/Model/sys/status.pb.swift"]
     ),     
     .target(
         name: "YoumiRPCModelLongevityExt",
