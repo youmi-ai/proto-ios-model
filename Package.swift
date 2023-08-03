@@ -50,8 +50,7 @@ let package = Package(
         .grpc,
         .nio,
         .protobuf,
-        ],
-        sources: ["Sources/Model/sys/status.pb.swift"]
+        ]
     ),     
     .target(
         name: "YoumiRPCModelLongevityExt",
@@ -60,8 +59,7 @@ let package = Package(
         .nio,
         .protobuf,
         .youmiRPCModelSys,
-        ],
-        path: "Sources/Model/longevityext"
+        ]
     ),
     .executableTarget(
         name: "YoumiRPCallClient",
